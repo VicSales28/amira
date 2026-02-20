@@ -1,0 +1,17 @@
+.hero {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    background-color: var(--tertiary-50);
+}
+
+.hero__img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+}
